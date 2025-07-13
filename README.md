@@ -32,17 +32,35 @@ This project demonstrates the usage of various **Java Swing components** along w
 
 ```
 
-java-swing/
+swing/
 │
-├── src/
-│   ├── Main.java
-│   ├── ButtonExample.java
-│   ├── FormUI.java
-│   ├── EventHandlingDemo.java
-│   └── ... (additional UI classes)
-│
-├── README.md
-└── screenshots/ (if any)
+├── ActionListenerDemo.java       // Demonstrates ActionListener usage
+├── Add.java                      // Simple addition functionality
+├── ArithmeticOpDemo.java         // Arithmetic operations demo
+├── AsciiDemo.java                // ASCII value demo
+├── ComboBoxDemo.java             // JComboBox (drop-down) demo
+├── ExceptionDemo.java            // Handling exceptions in GUI
+├── InetDemo.java                 // Internet/network-related GUI
+├── ItemEventDemo.java            // ItemEvent listener demo
+├── JButtonDemo.java              // JButton demo
+├── JFrameDemo.java               // JFrame demo
+├── JLabelDemo.java               // JLabel demo
+├── JProgressBarDemo.java         // JProgressBar demo
+├── JRadioButtonDemo.java         // JRadioButton demo
+├── JScrollPaneDemo.java          // JScrollPane demo
+├── JTabbedPaneDemo.java          // JTabbedPane demo
+├── JTableDemo.java               // JTable demo
+├── JTextFieldDemo.java           // JTextField demo
+├── JToolTipDemo.java             // JToolTip demo
+├── JTreeDemo.java                // JTree demo
+├── KeyEventDemo.java             // Key event handling demo
+├── MainClass.java                // Main entry class for launching demos
+├── Mouse.java                    // Mouse input handling
+├── MouseListenerDemo.java        // MouseListener demo
+├── TextListenerDemo.java         // TextListener demo
+├── ThreadDemo.java               // Thread usage in Swing GUI
+├── UrcDemo.java                  // (Possibly custom or typo-named) URC demo
+└── UrlDemo.java                  // URL handling demo in Swing
 
 ````
 
