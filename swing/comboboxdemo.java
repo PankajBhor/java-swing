@@ -1,8 +1,8 @@
 
-import javax.swing.*;
 import java.awt.*;
-public class comboboxdemo extends JFrame{
-    comboboxdemo() {
+import javax.swing.*;
+public class ComboBoxDemo extends JFrame{
+    ComboBoxDemo() {
         Container c=getContentPane();
         JComboBox jcb1= new JComboBox();
         jcb1.addItem("cpp");
@@ -13,7 +13,7 @@ public class comboboxdemo extends JFrame{
         c.add(jcb1);
     }
     public static void main(String args[]) {
-        comboboxdemo cb1= new comboboxdemo();
+        ComboBoxDemo cb1= new ComboBoxDemo();
         cb1.setVisible(true);
         cb1.setSize(600,600);
         cb1.setTitle("comboboxdemo");

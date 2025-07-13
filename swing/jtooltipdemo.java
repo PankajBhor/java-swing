@@ -1,8 +1,8 @@
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
 
-class jtooltipdemo extends JFrame {
-    jtooltipdemo() {
+class JToolTipDemo extends JFrame {
+    JToolTipDemo() {
         Container c = getContentPane();
         c.setLayout(new FlowLayout()); // Set the layout manager
         JButton b1 = new JButton("OK");
@@ -11,7 +11,7 @@ class jtooltipdemo extends JFrame {
     }
 
     public static void main(String args[]) {
-        jtooltipdemo f1 = new jtooltipdemo();
+        JToolTipDemo f1 = new JToolTipDemo();
         f1.setVisible(true);
         f1.setSize(600, 600);
         f1.setTitle("JToolTip Demo Frame");

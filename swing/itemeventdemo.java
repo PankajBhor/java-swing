@@ -1,10 +1,10 @@
-import javax.swing.*;
-import java.awt.event.*;
 import java.awt.*;
-public class itemeventdemo extends JFrame implements ItemListener {
+import java.awt.event.*;
+import javax.swing.*;
+public class ItemEventDemo extends JFrame implements ItemListener {
     JComboBox jcb;
     JTextField tf1;
-    itemeventdemo(){
+    ItemEventDemo(){
         Container c=getContentPane();
         jcb=new JComboBox();
         jcb.addItem("India");
@@ -21,7 +21,7 @@ public class itemeventdemo extends JFrame implements ItemListener {
         tf1.setText(str);
     }
     public static void main(String args[]) {
-        itemeventdemo f1=new itemeventdemo();
+        ItemEventDemo f1=new ItemEventDemo();
         f1.setVisible(true);
         f1.setSize(600,600);
         f1.setTitle("Item Event Frame");

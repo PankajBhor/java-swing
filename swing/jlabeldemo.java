@@ -1,8 +1,8 @@
 
 import java.awt.*;
 import javax.swing.*;
-public class jlabeldemo extends JFrame {
-    jlabeldemo() {
+public class JLabelDemo extends JFrame {
+    JLabelDemo() {
         Container c=getContentPane();
         c.setLayout(new FlowLayout());
         ImageIcon i1= new ImageIcon("pankaj.png");
@@ -10,7 +10,7 @@ public class jlabeldemo extends JFrame {
         c.add(l1);
     }
     public static void main(String args[]) {
-        jframedemo f1= new jframedemo();
+        JProgressBarDemo f1= new JProgressBarDemo();
         f1.setVisible(true);
         f1.setSize(500,500);
         f1.setTitle("jlabel demo");

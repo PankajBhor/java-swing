@@ -55,3 +55,5 @@ build/
 
 # Windows
 Thumbs.db
+
+.fake

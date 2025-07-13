@@ -1,9 +1,9 @@
 import java.awt.*;
 import java.awt.event.*;
-public class keyeventdemo extends Frame implements KeyListener{
+public class KeyEventDemo extends Frame implements KeyListener{
     TextField tf1;
     Label l1,l2,l3;
-    keyeventdemo() {
+    KeyEventDemo() {
         tf1=new TextField(50);
         l1=new Label("                      ");
         l2=new Label("                      ");
@@ -28,7 +28,7 @@ public class keyeventdemo extends Frame implements KeyListener{
         l3.setText("Key Released: "+ch);
     }
     public static void main(String args[]) {
-        keyeventdemo f1=new keyeventdemo();
+        KeyEventDemo f1=new KeyEventDemo();
         f1.setSize(600,600);
         f1.setVisible(true);
         f1.setSize(600,600);

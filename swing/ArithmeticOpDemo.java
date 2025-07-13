@@ -1,9 +1,9 @@
 import java.awt.*;
 import java.awt.event.*;
-public class arithmaticopdemo extends Frame implements ActionListener {
+public class ArithmeticOpDemo extends Frame implements ActionListener {
     TextField tf1,tf2,tf3;
     Button b1,b2,b3,b4;
-    arithmaticopdemo() {
+    ArithmeticOpDemo() {
         tf1=new TextField("Enter First Number",20);
         tf1.select(0,18);
         tf2=new TextField("Enter Second Number",20);
@@ -44,7 +44,7 @@ public class arithmaticopdemo extends Frame implements ActionListener {
         }
     }
     public static void main(String args[]) {
-        arithmaticopdemo f1=new arithmaticopdemo();
+        ArithmeticOpDemo f1=new ArithmeticOpDemo();
         f1.setVisible(true);
         f1.setSize(600,600);
         f1.setTitle("Arithmatic operation Frame");

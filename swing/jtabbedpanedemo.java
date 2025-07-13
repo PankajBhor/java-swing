@@ -1,5 +1,5 @@
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
 class jpaneldemo1 extends JPanel {
     jpaneldemo1() {
         JButton b1= new JButton("OK");
@@ -29,8 +29,8 @@ class jpaneldemo3 extends JPanel {
         add(jb1);
     }
 }
-class jtabbedpanedemo extends JFrame { 
-    jtabbedpanedemo() { 
+class JTabbedPaneDemo extends JFrame { 
+    JTabbedPaneDemo() { 
         Container c= getContentPane();
         JTabbedPane jtp= new JTabbedPane();
 
@@ -45,7 +45,7 @@ class jtabbedpanedemo extends JFrame {
         c.add(jtp);
     }
     public static void main(String args[]) {
-        jtabbedpanedemo jtpd= new jtabbedpanedemo();
+        JTabbedPaneDemo jtpd= new JTabbedPaneDemo();
         jtpd.setSize(400,400);
         jtpd.setVisible(true);
         jtpd.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -1,8 +1,8 @@
 
-import javax.swing.*;
 import java.awt.*;
-public class jbuttondemo extends JFrame{
-    jbuttondemo() {
+import javax.swing.*;
+public class JButtonDemo extends JFrame{
+    JButtonDemo() {
         Container c=getContentPane();
         c.setLayout(new FlowLayout());
         JButton b1= new JButton("Ok");
@@ -13,7 +13,7 @@ public class jbuttondemo extends JFrame{
         c.add(b2);
     }
     public static void main(String args[]) {
-        jbuttondemo f1= new jbuttondemo();
+        JButtonDemo f1= new JButtonDemo();
         f1.setVisible(true);
         f1.setSize(600,600);
         f1.setTitle("jbuttondemo");

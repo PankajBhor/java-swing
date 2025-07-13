@@ -1,8 +1,8 @@
+import java.awt.*;
 import javax.swing.*;
 import javax.swing.tree.*;
-import java.awt.*;
-class jtreedemo extends JFrame {
-    jtreedemo() {
+class JTreeDemo extends JFrame {
+    JTreeDemo() {
         Container c=getContentPane();
 
         DefaultMutableTreeNode lang=new DefaultMutableTreeNode("Lang");
@@ -29,7 +29,7 @@ class jtreedemo extends JFrame {
         c.add(jsp1,BorderLayout.WEST);
     }
     public static void main(String args[]) {
-        jtreedemo f1=new jtreedemo();
+        JTreeDemo f1=new JTreeDemo();
         f1.setVisible(true);
         f1.setSize(600,600);
         f1.setTitle("jtree demo frame");

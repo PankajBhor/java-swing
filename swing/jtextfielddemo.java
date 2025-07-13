@@ -1,8 +1,8 @@
 
-import javax.swing.*;
 import java.awt.*;
-public class jtextfielddemo extends JFrame{
-    jtextfielddemo() {
+import javax.swing.*;
+public class JTextFieldDemo extends JFrame{
+    JTextFieldDemo() {
         Container c=getContentPane();
         c.setLayout(new FlowLayout());
         JTextField jt1= new JTextField("Enter Username", 30);
@@ -18,7 +18,7 @@ public class jtextfielddemo extends JFrame{
         c.add(jb1);
     }
     public static void main(String args[]) {
-        jtextfielddemo f1= new jtextfielddemo();
+        JTextFieldDemo f1= new JTextFieldDemo();
         f1.setVisible(true);
         f1.setSize(600,600);
         f1.setTitle("JFrame");

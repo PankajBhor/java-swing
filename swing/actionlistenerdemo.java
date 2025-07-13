@@ -1,7 +1,7 @@
-import java.awt.event.*;
 import java.awt.*;
-public class actionlistenerdemo extends Frame implements ActionListener {
-    actionlistenerdemo(String title) {
+import java.awt.event.*;
+public class ActionListenerDemo extends Frame implements ActionListener {
+    ActionListenerDemo(String title) {
         super(title);
         setLayout(new FlowLayout());
         setVisible(true);         
@@ -14,6 +14,6 @@ public class actionlistenerdemo extends Frame implements ActionListener {
         System.out.println("Ok Button is pressed");
     }
     public static void main(String args[]) {
-        actionlistenerdemo f1 = new actionlistenerdemo("actionlistenerdemo");
+        ActionListenerDemo f1 = new ActionListenerDemo("actionlistenerdemo");
     }
 }

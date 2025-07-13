@@ -1,8 +1,8 @@
-import javax.swing.*;
 import java.awt.*;
-class jprogressbardemo extends JFrame {
+import javax.swing.*;
+class JProgressBarDemo extends JFrame {
     JProgressBar jpb;
-    jprogressbardemo() {
+    JProgressBarDemo() {
         Container c=getContentPane();    
         c.setLayout(new FlowLayout());    
         jpb=new JProgressBar(0,3000);
@@ -24,7 +24,7 @@ class jprogressbardemo extends JFrame {
         
     }
     public static void main(String args[]) {
-        jprogressbardemo f1=new jprogressbardemo();
+        JProgressBarDemo f1=new JProgressBarDemo();
         f1.setVisible(true);
         f1.setSize(600,600);
         f1.setTitle("jprogressbar demo frame");

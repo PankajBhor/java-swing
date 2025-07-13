@@ -1,8 +1,8 @@
 
-import javax.swing.*;
 import java.awt.*;
-public class jradiobuttondemo extends JFrame{
-    jradiobuttondemo() {
+import javax.swing.*;
+public class JRadioButtonDemo extends JFrame{
+    JRadioButtonDemo() {
         Container c=getContentPane();
         ButtonGroup bg1= new ButtonGroup();
         JRadioButton r1= new JRadioButton("Female");
@@ -16,7 +16,7 @@ public class jradiobuttondemo extends JFrame{
         c.add(r3);
     }
     public static void main(String args[]) {
-        jradiobuttondemo cb1= new jradiobuttondemo();
+        JRadioButtonDemo cb1= new JRadioButtonDemo();
         cb1.setVisible(true);
         cb1.setSize(600,600);
         cb1.setTitle("jradiobuttondemo");

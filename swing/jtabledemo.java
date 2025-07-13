@@ -1,7 +1,7 @@
-import javax.swing.*;
 import java.awt.*;
-class jtabledemo extends JFrame {
-    jtabledemo() {
+import javax.swing.*;
+class JTableDemo extends JFrame {
+    JTableDemo() {
         Container c=getContentPane();
         c.setLayout(new FlowLayout());
         String data[][]={{"70","Pankaj","India"},
@@ -16,7 +16,7 @@ class jtabledemo extends JFrame {
         jt1.setToolTipText("This is a table");
     }
     public static void main(String args[]) {
-        jtabledemo f1 = new jtabledemo();
+        JTableDemo f1 = new JTableDemo();
         f1.setVisible(true);
         f1.setSize(600, 600);
         f1.setTitle("JToolTip Demo Frame");

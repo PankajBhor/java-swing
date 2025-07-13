@@ -1,9 +1,9 @@
-import java.awt.event.*;
 import java.awt.*;
-public class textlistenerdemo extends Frame implements TextListener {
+import java.awt.event.*;
+public class TextListenerDemo extends Frame implements TextListener {
     TextArea ta1;
     Label l1;
-    textlistenerdemo() {
+    TextListenerDemo() {
         ta1=new TextArea("Enter Text Here ",30,30);
         ta1.select(0,16);
         l1=new Label("                                                                                                    ");
@@ -16,7 +16,7 @@ public class textlistenerdemo extends Frame implements TextListener {
         l1.setText("Text Value Changed to "+str);
     }
     public static void main(String args[]) {
-        textlistenerdemo f1=new textlistenerdemo();
+        TextListenerDemo f1=new TextListenerDemo();
         f1.setVisible(true);
         f1.setSize(600,600);
         f1.setTitle("Text Event Frame");

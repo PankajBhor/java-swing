@@ -1,8 +1,8 @@
 
 import javax.swing.*;
-public class jframedemo extends JFrame {
+public class JFrameDemo extends JFrame {
     public static void main(String args[]) {
-        jframedemo f1= new jframedemo();
+        JFrameDemo f1= new JFrameDemo();
         f1.setVisible(true);
         f1.setSize(500,500);
         f1.setTitle("jframe demo");
