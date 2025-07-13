@@ -35,12 +35,8 @@ This project demonstrates the usage of various **Java Swing components** along w
 swing/
 │
 ├── ActionListenerDemo.java       // Demonstrates ActionListener usage
-├── Add.java                      // Simple addition functionality
-├── ArithmeticOpDemo.java         // Arithmetic operations demo
-├── AsciiDemo.java                // ASCII value demo
+├── ArithmeticOpDemo.java         // Arithmetic operations demo using swing components
 ├── ComboBoxDemo.java             // JComboBox (drop-down) demo
-├── ExceptionDemo.java            // Handling exceptions in GUI
-├── InetDemo.java                 // Internet/network-related GUI
 ├── ItemEventDemo.java            // ItemEvent listener demo
 ├── JButtonDemo.java              // JButton demo
 ├── JFrameDemo.java               // JFrame demo
@@ -54,13 +50,9 @@ swing/
 ├── JToolTipDemo.java             // JToolTip demo
 ├── JTreeDemo.java                // JTree demo
 ├── KeyEventDemo.java             // Key event handling demo
-├── MainClass.java                // Main entry class for launching demos
 ├── Mouse.java                    // Mouse input handling
 ├── MouseListenerDemo.java        // MouseListener demo
 ├── TextListenerDemo.java         // TextListener demo
-├── ThreadDemo.java               // Thread usage in Swing GUI
-├── UrcDemo.java                  // (Possibly custom or typo-named) URC demo
-└── UrlDemo.java                  // URL handling demo in Swing
 
 ````
 
@@ -75,11 +67,11 @@ swing/
 
 ### Steps to Run via Terminal
 ```bash
-javac Main.java
-java Main
+javac FileName.java
+java FileName
 ````
 
-> Replace `Main.java` with your actual main class if different.
+> Replace `FileName.java` with your actual main class if different.
 
 ---
 
